@@ -1,0 +1,16 @@
+{
+  "name": "encrypted-cli",
+  "version": "1.0.0",
+  "description": "Retrieve sensitive data, like credentials, from an encrypted file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "./index.js",
+  "author": "Chris Thompson <chris@thompson-web.org>",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "kripke": "^1.0.0"
+  }
+}
